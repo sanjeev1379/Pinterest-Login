@@ -1,0 +1,213 @@
+body{
+  margin:0px,0px;
+  background-image:url(../image/background.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+}
+#upper_login{
+  float:right;
+  margin-right:70px;
+  margin-top:25px;
+}
+#upper_login input[type="button"]{
+  cursor:pointer;
+width:90px;
+height:35px;
+background-color:white;
+color:#020102;
+font-weight:bold;
+font-size:15px;
+border:solid 1px black;
+border-radius:3px;
+}
+#upper_login input[type="button"]:hover{
+  background-color:red;
+  border:solid 1px red;
+  color:white;
+}
+#upper_pin{
+  cursor:pointer;
+  text-align:center;
+  padding-top:70px;
+  font-family:Rockwell;
+  font-weight:bold;
+  font-size:38px;
+letter-spacing:1px;
+}
+#upper_pin1{
+  text-align:center;
+  padding-top:13px;
+  font-family:cursive;
+  font-weight:bold;
+  font-size:24px;
+  color:#2E2C3E;
+}
+#upper_pin2{
+  text-align:center;
+  padding-top:8px;
+  font-family:cursive;
+  font-weight:bold;
+  font-size:14px;
+  color:#3B4C3A;
+}
+#face_button{
+  text-align:center;
+  margin-top:40px;
+}
+#face_button input[type="button"]{
+  cursor:pointer;
+  text-align:center;
+  background-color:blue;
+  color:white;
+  width:250px;
+  height:40px;
+  border:solid 1px blue;
+  border-radius:0 3px 3px 0;
+  font-size:14px;
+  font-weight:bold;
+}
+#img{
+  cursor:pointer;
+  margin-bottom:-15px;
+  width:45px;
+  height:40px;
+  border-radius:3px 0 0 3px;
+}
+#image_or {
+  margin-top:17px;
+}
+#image_or img{
+  margin-bottom:2px;
+  width:170px;
+  height:1px;
+}
+#image_or #or{
+  margin-right:5px;
+  margin-left:5px;
+font-family:cursive;
+font-size:12px;
+color:white;
+}
+#input_email{
+  margin-top:30px;
+}
+#input_email input[type="text"]{
+  width:300px;
+  height:37px;
+  border:solid 2px #F8F8FC;
+  border-radius:3px;
+  background-color:#F8F8FC;
+  color:black;
+  font-family:cursive;
+}
+#input_email input[type="text"]:hover{
+  border:solid 2px white;
+  color:black;
+  background-color:white;
+}
+#input_pass input[type="password"]{
+  margin-top:9px;
+  width:300px;
+  height:37px;
+  border:solid 2px #F8F8FC;
+  border-radius:3px;
+  background-color:#F8F8FC;
+  color:black;
+  font-family:cursive;
+}
+#input_pass input[type="password"]:hover{
+  border:solid 2px white;
+  background-color:white;
+  color:black;
+}
+#input_button input[type="button"]{
+  margin-top:9px;
+  width:300px;
+  height:37px;
+  border:solid 2px #F95F87;
+  border-radius:3px;
+  background-color:#F95F87;
+  color:white;
+  font-weight:bold;
+  font-family:cursive;
+}
+#input_button input[type="button"]:hover{
+  border:solid 2px #FA386A;
+  background-color:#FA386A;
+}
+#para{
+  margin-top:20px;
+  float:center;
+}
+#para p{
+  font-family:cursive;
+  color:white;
+  font-size:13px;
+}
+#para p a{
+  color:black;
+  text-decoration:none;
+}
+#para p a:hover{
+  color:white;
+}
+
+@media only screen and (min-width:100px) and (max-width:400px){
+
+  #upper_login{
+    margin-right:15px;
+  }
+  #upper_pin{
+    padding-top:90px;
+    font-size:30px;
+    letter-spacing:1px;
+  }
+  #upper_pin1{
+    font-size:12px;
+    color:#2E2C3E;
+  }
+  #upper_pin2{
+    font-size:8px;
+    color:#3B4C3A;
+    height:auto;
+  }
+  #face_button input[type="button"]{
+  width:220px;
+  height:35px;
+  }
+   #img{
+  cursor:pointer;
+  margin-bottom:-13px;
+  width:35px;
+  height:35px;
+  }
+
+  #image_or img{
+    width:100px;
+  }
+  #input_email input[type="text"]{
+    width:260px;
+    height:35px;
+  }
+  #input_pass input[type="password"]{
+    margin-top:10px;
+    width:260px;
+    height:35px;
+  }
+  #input_button input[type="button"]{
+    margin-top:9px;
+    width:260px;
+    height:35px;
+  }
+  #para{
+    margin-top:20px;
+    float:center;
+  }
+  #para p{
+    font-family:cursive;
+    color:white;
+    font-size:9px;
+  }
+
+}
